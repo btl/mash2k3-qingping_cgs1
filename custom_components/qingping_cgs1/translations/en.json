@@ -1,0 +1,38 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Set up your Qingping device",
+                "title": "Qingping",
+                "data": {
+                    "name": "Device Name",
+                    "mac": "MAC Address",
+                    "model": "Select your device"
+                }
+            },
+            "no_devices": {
+                "description": "Click submit to add device manually",
+                "title": "Qingping device not found"
+            },
+            "manual": {
+                "description": "Set up your Qingping device",
+                "title": "Qingping",
+                "data": {
+                    "name": "Device Name",
+                    "mac": "MAC Address",
+                    "model": "Select your device"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "description": "Select Qingping Model",
+                "data": {
+                    "model": "Select your device"
+                }
+            }
+        }
+    }
+}
